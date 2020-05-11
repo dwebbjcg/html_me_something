@@ -8,28 +8,55 @@ body {
   background: url("images/vintage.jpg");
   background-size: cover;
   background-attachment: fixed;
+  background-position:  left center;
 }
 
+.page-header {
+  display: flex;
+  align-items: center;
+}
 /* Emojis */
 .emoji1 {
-  display: block;
-  float: left;
-  width: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   padding-left: 2%;
 }
 
 .emoji2 {
-  display: block;
-  float: right;
-  width: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   padding-right: 2%;
 }
 
+.titles-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 /* Text */
+
+.dont-cry {
+  background-color: rgb(239, 247, 255, .8);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.et-container {
+  background-color: rgb(239, 247, 255, .8);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border-radius: 5px;
+}
 .explanation {
     text-align: left;
-    margin-left: 500px;
-    display: block;
+    /* margin-left: 500px; */
+    /* display: block; */
     color: rgb(59, 72, 80);
     padding-left: 1%;
 }
@@ -96,8 +123,8 @@ div.gallery {
 
   /* Gifs */
   #ET {
-      float: left;
-      width: 49%;
+      /* float: left; */
+      width: 50%;
   }
 
   #TF {
